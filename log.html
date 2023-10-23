@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User session</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<style>
+		/**{
+			border-style: solid;
+		}*/
+		body { 
+			color: white; 
+			text-align: center;
+		}
+		nav{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: /*rgb(248, 252, 255)*/ whitesmoke;
+			display: flex;
+			padding: 0.5vw;
+			box-shadow: 0px 0px 8px black;
+		}
+        input{
+			padding: 1.5vw;
+        }
+		#nom {
+			width: 30vw;
+            height: 0.8vw;
+            margin: 0.5vw;
+			color: grey;
+			letter-spacing: 2px;
+			border-radius: 10px;
+        	border-style: none;
+			box-shadow: 0px 0px 8px darkslategray;
+			animation: 6s infinite ease-out shadowColor;
+		}
+		@keyframes shadowColor{
+			from{
+				box-shadow: 0px 0px 8px darkslategray;
+			}
+			to{
+				box-shadow: 0px 0px 8px cadetblue;
+			}
+		}
+		.submit {
+        	border-width: 1px;
+			border-radius: 10px;
+			background: rgb(224,228,235,0.8);
+			color: grey;
+		}
+		.submit:hover{
+			background: rgb(194,198,205,0.6);
+		}
+		button{
+			width: 5vw;
+			height: 4.3vw;
+			margin: 1.4vw 0.2vw;
+			border-radius: 20px;
+		}
+		button a{
+			text-decoration: none;
+			color: grey;
+		}
+		#info{
+			display: flex;
+			margin-left: auto;
+			padding: 0vw 2vw;
+		}
+		#identifier{
+			background: linear-gradient(to bottom right, darkslateblue, darkslategrey);
+			text-align: center;
+			height: 2.8vw;
+			margin: 1.4vw 0.5vw;
+			padding: 0.7vw 1.8vw;
+			border-radius: 12px;
+		}
+		abbr{
+			font-family: sans-serif;
+			font-weight: bolder;
+			font-size: 2vw;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		table { 
+			border-collapse: collapse;
+			margin: 10vw auto 3vw auto;
+			width: 60%;
+		}
+		td {
+			border: 1px solid white;
+			padding: 1.5vw;
+		}
+		#en-tete { 
+			background-color: black; 
+		}
+		.open { 
+			background-color: rgb(190, 171, 160); 
+		}
+		.close { 
+			background-color: rgba(154, 103, 137); 
+		}
+		h1{
+			margin-top: 15vw;
+			color: rgb(220, 51, 51);
+		}
+		.page{
+			background-color: darkgrey;
+			text-decoration: none;
+			border-radius: 10px;
+			padding: 0.9vw;
+			margin: 1vw 0.4vw 4vw 0.4vw;
+			color: white;
+			font-weight: bold;
+		}
+		.boite{
+			background-color: black;
+		}
+		.inpage{
+			background-color: rgb(50,60,90);
+			animation: 6s infinite ease-out shadowColor;
+		}
+	</style>
+</head>
+<body>
+
+</body>
+</html>
