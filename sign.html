@@ -1,0 +1,81 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+	<title>Sign in</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.36" />
+	<style>
+		body{
+			background: linear-gradient(left to right,pink,grey);
+			text-align: center;
+		}
+		body div{
+			padding: 4vw;
+		}
+		form{
+			margin: 2% 15% auto 15%;
+			padding: 4% 0 4% 0;
+			animation: infinite 8s ease-in-out shadowColor;
+		}
+		body div h1{
+			text-shadow: 0 0 3px black;
+			color: white;
+			letter-spacing: 0.8vw; 
+		}
+		h3{
+			color: red;
+		}
+		input{
+			width: 40%;
+			margin: 1vw;
+			padding: 1.5vw;
+			font-size: 1vw;
+			letter-spacing: 0.5vw;
+			color: grey;
+		}
+		#submit{
+			width: 45.5%;
+			margin: 2vw;
+			padding: 1.5vw;
+		}
+		a{
+			display: inline-block;
+			text-decoration: none;
+			margin: 1vw;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		@keyframes shadowColor{
+			0%{
+				box-shadow: 0px 2px 13px red;
+			}
+			25%{
+				box-shadow: 0px 2px 15px orange;
+			}
+			50%{
+				box-shadow: 0px 2px 15px green;
+			}
+			75%{
+				box-shadow: 0px 2px 14px blue;
+			}
+			100%{
+				box-shadow: 0px 2px 17px purple;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<form action="login.cgi" method="get">
+			<h1>Sign up</h1>
+			<input type="text" name="nom" placeholder="Name | Pseudo" required><br>
+			<input type="password" name="passwd" placeholder="Password" required><br>
+			<input type="submit" value="Valider" id="submit"><br>
+			<a href="login.cgi">Already have have an account ? Sign in</a>
+		</form>
+	</div>
+</body>
+
+</html>
